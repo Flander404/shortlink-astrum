@@ -1,0 +1,338 @@
+.moreinfo {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+.moreinfo_nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 72px;
+  margin-top: 35px;
+}
+.moreinfo_nav p {
+  color: #293a76;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_main {
+  width: 100%;
+  margin-top: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 110px;
+  flex-wrap: wrap;
+}
+
+.moreinfo_main_create {
+  max-width: 638px;
+  position: relative;
+  width: 95%;
+  height: 703px;
+  padding-top: 69px;
+  background: url("../images/Table.png"), lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.moreinfo_main_create_inp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 51px;
+}
+.moreinfo_main_create_inp input {
+  width: 291px;
+  height: 44px;
+  border-radius: 20px;
+  border: 1px solid #b4b4b4;
+  background: #fff;
+  border: none;
+  padding-left: 29px;
+  outline: none;
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_main_create_inp input::placeholder {
+  color: #9c9aa5;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_main_create_inp button {
+  width: 112px;
+  height: 44px;
+  background-color: #ff00f5;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_main_filter {
+  width: 452px;
+
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fa4bd4 0%, #e3e3e3 100%);
+}
+.moreinfo_main_create_inp_link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 152px;
+}
+.moreinfo_main_create_bg {
+  background: rgba(255, 255, 255, 0.5);
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 20px;
+  margin-top: 14px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.moreinfo_main_create_table {
+  width: 100%;
+  margin: 0 auto;
+  height: 451px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  overflow-y: scroll;
+  flex-direction: column;
+  padding-top: 32px;
+  gap: 22px;
+}
+
+.moreinfo_main_create_link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 152px;
+}
+.moreinfo_main_create_link p {
+  color: #293a76;
+  font-size: 15px;
+  font-style: normal;
+  width: 100px;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_main_create_link_short {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+.moreinfo_main_create_link_short_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.moreinfo_main_create_link_short_icons svg {
+  color: #293a76;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.moreinfo_main_create_link_short_icon {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.moreinfo_main_create_link_short_icon svg {
+  color: #293a76;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.moreinfo_main_create_link_short_svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.moreinfo_main_create_link_short_svg svg {
+  color: #293a76;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.moreinfo_main_create_btnlist {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.moreinfo_main_create_btnlist button {
+  width: 220px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  background: #ff00f5;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+@media (max-width: 991px) {
+  .moreinfo_nav {
+    width: 95%;
+    align-items: center;
+    justify-content: left;
+    padding: 0px;
+  }
+  .moreinfo_main {
+    margin-top: 40px;
+  }
+  .moreinfo_nav p {
+    display: none;
+  }
+  .moreinfo_main_filter {
+    max-width: 638px;
+    width: 95%;
+  }
+}
+@media (max-width: 600px) {
+  .moreinfo_main_create_link {
+    gap: 30px;
+  }
+  .moreinfo_main_create_link_short {
+    gap: 30px;
+  }
+  .moreinfo_main_create {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 500px) {
+  .moreinfo_main_create_inp {
+    gap: 15px;
+  }
+  .moreinfo_main_create_link_short_icons {
+    position: absolute;
+    top: -21px;
+    right: -6vw;
+    background-color: #b4048d;
+    border-radius: 10px;
+    width: 83px;
+    gap: 15px;
+    height: 20px;
+  }
+  .moreinfo_main_create_link_short_icons svg {
+    color: #fff;
+    width: 12px;
+    height: 12px;
+  }
+  .moreinfo_main_create_link_short {
+    position: relative;
+  }
+  .moreinfo_main_create_link_short_icon {
+    display: flex;
+  }
+  .moreinfo_main_create_link_short {
+    gap: 60px;
+  }
+  .moreinfo_main_create_link_short_svg {
+    display: none;
+  }
+}
+.moreinfo_desc {
+  max-width: 1200px;
+  position: relative;
+  width: 95%;
+  padding-top: 20px;
+  margin-top: 54px;
+  padding-bottom: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  background: url("../images/Rectangle\ 22.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 26px;
+}
+.moreinfo_desc_card {
+  width: 580px;
+  position: relative;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 23px;
+}
+.desc_card {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  margin-top: 71px;
+  margin-bottom: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 67px;
+}
+.footer p {
+  color: #293a76;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_descbg {
+  width: 100%;
+  height: 100%;
+  background-color: #ffd1f580;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    flex-direction: column;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+  .moreinfo_desc {
+    background: url("../images/Rectangle\ 223.png");
+  }
+  .moreinfo_main_create_link p {
+    width: 90px;
+  }
+  .filter_link p {
+    width: 90px !important;
+  }
+}

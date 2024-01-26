@@ -1,0 +1,282 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.singup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  height: 100vh;
+}
+.helloblock {
+  max-width: 450px;
+  width: 450px;
+  position: relative;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 95vh;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 245, 0.7) 21.25%,
+    rgba(70, 95, 241, 0.7) 94.25%
+  );
+}
+.helloblock_h1 {
+  color: #fff;
+  margin-top: 108px;
+  text-align: center;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.helloblock_h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 2vw;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.helloblock_h_2 {
+  color: #fff;
+  position: absolute;
+  bottom: 51px;
+  width: 80%;
+  text-align: center;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.formblock {
+  width: 95%;
+  max-width: 358px;
+  height: 90vh;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.formblock_inp {
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 28px;
+  gap: 8px;
+}
+.formblock_inp span {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.formblock_inp input {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid rgba(70, 95, 241, 0.4);
+  background: #fff;
+  box-shadow: 0px 4px 8px 0px rgba(70, 95, 241, 0.1);
+  padding-left: 20px;
+  height: 48px;
+  outline: none;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.formblock_inp input::placeholder {
+  color: #9c9aa5;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.formblock_validate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 13px;
+}
+.validate_title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 9px;
+}
+.validate_title svg {
+  color: #465ff1;
+  opacity: 0.25;
+  width: 16px;
+  height: 16px;
+}
+.validate_title p {
+  color: #26203b;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 12px */
+}
+
+.formblock_btn {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formblock_btn button {
+  width: 100%;
+  cursor: pointer;
+  height: 48px;
+  border-radius: 8px;
+  background: #465ff1;
+  border: none;
+  color: var(--black-white-white, #fff);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.formblock_orr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 20px;
+}
+.formblock_orr_line {
+  width: 20%;
+  height: 1px;
+  border: 1px solid rgba(156, 154, 165, 0.3);
+}
+.formblock_orr_text p {
+  color: rgba(156, 154, 165, 0.3);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 12px */
+}
+.formblock_acc {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+.formblock_acc_card {
+  width: 112px;
+  cursor: pointer;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid rgba(70, 95, 241, 0.4);
+  background: #fff;
+}
+.formblock_checkbtn {
+  width: 100%;
+  margin-top: 33px;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 0px;
+  border-radius: 8px;
+  background: #ecf0ff;
+}
+.checkbtn_up {
+  width: 175px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbtn_up p {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  z-index: 9999;
+}
+.checkbtn_in {
+  width: 175px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbtn_in p {
+  color: #9c9aa5;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  z-index: 9999;
+  line-height: normal;
+}
+.checkbtn {
+  width: 175px;
+  background-color: #465ff1;
+  height: 38px;
+  position: absolute;
+  left: 4px;
+  border-radius: 8px;
+}
+@media(max-width:950px){
+    .singup{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+    }
+    .helloblock_h1{
+        margin-top: 30px;
+    }
+    .helloblock_h2{
+        margin-top: 30px;
+    }
+    .helloblock{
+        max-width: 450px;
+        width: 95%;
+        padding-bottom: 50px;
+        height: auto;
+    }
+
+    .helloblock_h_2{
+           position: relative;
+        bottom: auto;
+        margin-top: 40px;
+    }
+}
+@media(max-width:300px){
+  .checkbtn{
+    width: 50%;
+  }
+}
