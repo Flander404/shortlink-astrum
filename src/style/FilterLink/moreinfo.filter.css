@@ -1,157 +1,167 @@
-.filter {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 28px;
-    padding-right: 30px;
-  }
-  .filter_link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-    text-align: left;
-  }
-  .filter_link p {
-    width: 100px;
-    color: #293a76;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-  }
-  .filter_link_short {
-    display: flex;
-    align-items: center;
-    position: relative;
-    justify-content: center;
-    gap: 50px;
-  }
-  
-  .filter_link_short_icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-  }
-  .filter_link_short_icon svg {
-    color: #293a76;
-    width: 27px;
-    height: 27px;
-    cursor: pointer;
-  }
-  .filter_link_short_icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-  }
-  .filter_link_short_icons svg {
-    color: #fff;
-    width: 27px;
-    height: 27px;
-    cursor: pointer;
-  }
-  .filter_inp {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 27px 25px;
-    margin-top: 62px;
-  }
-  .filter_inp_box {
-    display: flex;
-    align-items: start;
-    justify-content: center;
-    flex-direction: column;
-    gap: 8px;
-  }
-  .filter_inp_box input {
-    width: 142px;
-    height: 44px;
-    border-radius: 10px;
-    border: 1px solid #646464;
-    background: #fff;
-    padding-left: 20px;
-    outline: none;
-  }
-  .filter_inp_box span {
-    color: #fff;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-  }
-  .filter_btn {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .filter_btn button {
-    width: 220px;
-    height: 25px;
-    border-radius: 20px;
-    background: #ff00f5;
-    color: #fff;
-    border: none;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 51px;
-  }
-  .filter_link_short_icon {
-    display: none;
-  }
-  @media (max-width: 500px) {
-    .filter_link_short_icons {
-      position: absolute;
-      top: -25px;
-      right: -5vw;
-      background-color: #b4048d;
-      width: 83px;
-      height: 20px;
-      gap: 15px;
-      border-radius: 10px;
-    }
-    .filter_link_short_icons svg {
-      width: 12px;
-      height: 12px;
-    }
-    .filter_link_short_icon {
-      display: flex;
-    }
-    .filter_link_short_svg {
-      display: none !important;
-    }
-  }
-  @media (max-width: 400px) {
-    .filter_inp_box {
-      width: 100%;
-    }
-    .filter_inp_box input {
-      width: 100%;
-    }
-    .filter_link {
-      gap: 25px;
-    }
-  }
-  
-  .filter_link_short_svg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  .filter_link_short_svg svg {
-    color: #293a76;
-    width: 20px;
+.moreinfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 28px;
+  padding-right: 30px;
+}
+.moreinfo_filter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  padding-left: 28px;
+  padding-top: 37px;
+  height: 704px;
+  padding-right: 30px;
+}
+.moreinfo_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  text-align: left;
+}
+.moreinfo_link p {
+  width: 100px;
+  color: #293a76;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.moreinfo_link_short {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  gap: 50px;
+}
+
+.moreinfo_link_short_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.moreinfo_link_short_icon svg {
+  color: #293a76;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.moreinfo_link_short_icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.moreinfo_link_short_icons svg {
+  color: #fff;
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+}
+.moreinfo_inp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 27px 25px;
+  margin-top: 62px;
+}
+.moreinfo_inp_box {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.moreinfo_inp_box input {
+  width: 142px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid #646464;
+  background: #fff;
+  padding-left: 20px;
+  outline: none;
+}
+.moreinfo_inp_box span {
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.moreinfo_btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.moreinfo_btn button {
+  width: 220px;
+  height: 25px;
+  border-radius: 20px;
+  background: #ff00f5;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 51px;
+}
+.moreinfo_link_short_icon {
+  display: none;
+}
+@media (max-width: 500px) {
+  .moreinfo_link_short_icons {
+    position: absolute;
+    top: -25px;
+    right: -5vw;
+    background-color: #b4048d;
+    width: 83px;
     height: 20px;
-    cursor: pointer;
+    gap: 15px;
+    border-radius: 10px;
   }
-  
+  .moreinfo_link_short_icons svg {
+    width: 12px;
+    height: 12px;
+  }
+  .moreinfo_link_short_icon {
+    display: flex;
+  }
+  .moreinfo_link_short_svg {
+    display: none !important;
+  }
+}
+@media (max-width: 400px) {
+  .moreinfo_inp_box {
+    width: 100%;
+  }
+  .moreinfo_inp_box input {
+    width: 100%;
+  }
+  .moreinfo_link {
+    gap: 25px;
+  }
+}
+
+.moreinfo_link_short_svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.moreinfo_link_short_svg svg {
+  color: #293a76;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}

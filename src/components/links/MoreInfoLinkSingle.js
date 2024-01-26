@@ -21,58 +21,58 @@ const MoreInfoLinkSingle = ({ link, shortlink, isOpen, onClick }) => {
     },
   ];
   return (
-    <div className="filter">
+    <div className="moreinfo_filter">
       {links?.map((item, index) => (
-        <div className="filter_link">
+        <div className="moreinfo_link">
           <p>{item.link}</p>
-          <div className="filter_link_short">
+          <div className="moreinfo_link_short">
             <p>{item.shortlink}</p>
-            <div className="filter_link_short_svg">
+            <div className="moreinfo_link_short_svg">
               <IoShareSocialOutline />
               <MdOutlineQrCode />
               <MdContentCopy />
             </div>
             {addMore ? (
               <>
-                <div className="filter_link_short_icons">
+                <div className="moreinfo_link_short_icons">
                   <IoShareSocialOutline />
                   <MdOutlineQrCode />
                   <MdContentCopy />
                 </div>
-                <div className="filter_link_short_icon">
+                <div className="moreinfo_link_short_icon">
                   <MdMoreVert style={backMore()} onClick={moreop} />
                 </div>
               </>
             ) : (
-              <div className="filter_link_short_icon">
+              <div className="moreinfo_link_short_icon">
                 <MdMoreVert onClick={moreop} />
               </div>
             )}
           </div>
         </div>
       ))}
-      <div className="filter_inp">
-        <div className="filter_inp_box">
+      <div className="moreinfo_inp">
+        <div className="moreinfo_inp_box">
           <span>Clicks</span>
           <input type="text" />
         </div>
-        <div className="filter_inp_box">
+        <div className="moreinfo_inp_box">
           <span>Popular Device</span>
           <input type="text" />
         </div>
-        <div className="filter_inp_box">
+        <div className="moreinfo_inp_box">
           <span>Popular Browser</span>
           <input type="text" />
         </div>
-        <div className="filter_inp_box">
+        <div className="moreinfo_inp_box">
           <span>Popular Platform</span>
           <input type="text" />
         </div>
-        <div className="filter_inp_box">
+        <div className="moreinfo_inp_box">
           <span>Popular Platform</span>
           <input type="text" />
         </div>
-        <div className="filter_inp_box">
+        <div className="moreinfo_inp_box">
           <span>Popular Platform</span>
           <input type="text" />
         </div>

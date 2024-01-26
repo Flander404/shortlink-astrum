@@ -90,6 +90,14 @@ const Home = () => {
       link: "cs2money.com",
       shortlink: "shortlink.uz/csdk2i",
     },
+    {
+      link: "cs2money.com",
+      shortlink: "shortlink.uz/csdk2i",
+    },
+    {
+      link: "cs2money.com",
+      shortlink: "shortlink.uz/csdk2i",
+    },
   ];
   const handleLinkClick = (index) => {
     setOpenLinkIndex((prevIndex) => (prevIndex === index ? null : index));
